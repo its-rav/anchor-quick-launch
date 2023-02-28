@@ -24,7 +24,10 @@ anchor-wrapper init --type <program_type> <project_name> --image <docker_image:t
 ```
 anchor-wrapper init --type <program_type> <project_name> --port <host_port>:<container_port> 
 ```
-
+- `--command`: Override the starting command to run the container
+```
+anchor-wrapper init --command [the starting command] --type <program_type> <project_name> 
+```
 - `--type`: 
   - To create a program in Python, run:
   ```
